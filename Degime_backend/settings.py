@@ -114,24 +114,24 @@ APPEND_SLASH = False
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
 DATABASES = {
     'default': {
-        'ENGINE': 'djongo',
-        'NAME': 'degime_db',
-        'CLIENT': {
-            'host': 'mongodb+srv://adonebellucci9:MN6NTLbCekjvaDu1@cluster0.b3mokv5.mongodb.net/cluster0?retryWrites=true&w=majority',
-            'username': 'adonebellucci9',
-            'password': 'MN6NTLbCekjvaDu1',
-        },
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'djongo',
+#         'NAME': 'degime_db',
+#         'CLIENT': {
+#             'host': 'mongodb+srv://adonebellucci9:MN6NTLbCekjvaDu1@cluster0.b3mokv5.mongodb.net/cluster0?retryWrites=true&w=majority',
+#             'username': 'adonebellucci9',
+#             'password': 'MN6NTLbCekjvaDu1',
+#         },
+#     }
+# }
 
 
 # Password validation
